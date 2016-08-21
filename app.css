@@ -1,0 +1,55 @@
+body{
+	margin:0;
+}
+
+#content{
+	background-color:#fff7dc;
+	height:70%;
+	position:relative;
+}
+
+#content>div{
+	background-color:#fff7dc;
+	height:90%;
+	margin:auto;
+	position:relative;
+	top:5%;
+	width:60%;
+}
+
+#footer{
+	background-color:#616161;
+	height:15%;
+	position:relative;
+}
+
+#header{
+	background-color:#ff8f50;
+	height:15%;
+	position:relative;
+}
+
+#header>span{
+	color:white;
+	font-family:Poppins;
+	font-size:3em;
+	font-weight:900;
+	left: 20%;
+	position: absolute;
+	top:35%;
+}
+
+#header ul{
+	color:white;
+	font-family:Poppins;
+	font-size:medium;
+	left:53%;
+	position:relative;
+	top:65%;
+}
+
+#header li{
+	float:left;
+	list-style:none;	
+	margin-right:2%;
+}	

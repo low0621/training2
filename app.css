@@ -23,6 +23,14 @@ body{
 	position:relative;
 }
 
+#footer>span{
+	color:white;
+	font-family:Poppins;
+	left:45%;
+	position:absolute;
+	top:48%;
+}
+
 #header{
 	background-color:#ff8f50;
 	height:15%;

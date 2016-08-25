@@ -1,11 +1,16 @@
+.active{
+	background-color:white !important;
+}
+
 body{
 	margin:0;
 }
 
 #content{
 	background-color:#fff7dc;
-	height:70%;
+	height:0%;
 	position:relative;
+	transition:height,1.5s;
 }
 
 #content>div{
@@ -19,7 +24,7 @@ body{
 
 #footer{
 	background-color:#616161;
-	height:15%;
+	height:10%;
 	position:relative;
 }
 
@@ -33,31 +38,49 @@ body{
 
 #header{
 	background-color:#ff8f50;
-	height:15%;
+	height:90%;
 	position:relative;
+	transition:height,1.5s;
 }
 
 #header>span{
 	color:white;
 	font-family:Poppins;
-	font-size:3em;
+	font-size:2em;
 	font-weight:900;
-	left: 20%;
+	left: 8%;
 	position: absolute;
 	top:35%;
+	transition:font-size 1.5s,top 1.5s;
 }
 
 #header ul{
 	color:white;
-	font-family:Poppins;
-	font-size:medium;
-	left:53%;
+	left:51%;
 	position:relative;
-	top:65%;
+	top:90%;
+	transition:top,1.5s;
 }
 
 #header li{
 	float:left;
+	font-family:Poppins;
+	font-size:medium;
 	list-style:none;	
 	margin-right:2%;
-}	
+	transition:padding 0.5s,font-size 0.5s;
+}
+
+#header li:hover{
+	border-bottom:2px solid white;
+	font-size:large;
+	padding:3px;
+}
+
+.item{
+	font-family:Poppins !important;
+}
+
+.segment{
+	background-color:white !important;
+}

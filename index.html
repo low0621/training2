@@ -1,5 +1,6 @@
 <html>
 	<head>
+    	<meta name='viewport' content='width=device-width, initial-scale=1'>
 		<script src='./jquery-3.1.0.min.js'></script>
 		<link href='./Semantic-UI-master/dist/semantic.min.css' rel="stylesheet" type="text/css">
 		<script src='.//Semantic-UI-master/dist/semantic.min.js'></script>
@@ -9,7 +10,11 @@
 	</head>
 	<body>
 		<div id="header" >
-			<span>NCKU EE</span>
+			<span>
+				National Cheng Kung University</br>
+				</br>
+				Department of Electrical Engineering</br>
+			</span>
 			<ul>
 				<li>
 					<i class="call icon"></i>
@@ -34,12 +39,61 @@
 			</ul>
 		</div>
 		<div id="content">
-			<div></div>	
+			<div>
+				<div class="ui top attached tabular menu">
+					<a class="item active">
+						<i class="announcement icon"></i>
+						Announce
+					</a>
+					<a class="item">
+						<i class="lab icon"></i>
+						Research
+					</a>
+					<a class="item">
+						About
+					</a>
+					<a class="item">
+						People
+					</a>
+					<a class="item">
+						Students
+					</a>
+					<a class="item">
+						Links
+					</a>
+				</div>
+				<div class="ui bottom attached segment">
+					<div class="ui grid">
+						<div class="four wide column">
+							<div class="ui vertical fluid tabular menu">
+								<a class="item">
+									NEWS
+								</a>
+								<a class="item">
+									Adimission
+								</a>
+								<a class="item">
+									Scholarship
+								</a>
+								<a class="item active">
+									Employmrent
+								</a>
+							</div>
+						</div>
+						<div class="twelve wide stretched column">
+							<div class="ui segment">
+								This is an stretched grid column. This segment will always match the tab height
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
 		</div>
 		<div id="footer" >
 			<span>
 				<i class="copyright icon"></i>Copyright NCKU EE 2016
 			</span>	
 		</div>
+		<script src='./app.js'></script>
 	</body>
 </html>

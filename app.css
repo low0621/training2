@@ -22,6 +22,10 @@ body{
 	width:60%;
 }
 
+#content>div .segment{
+	display:none;
+}
+
 #footer{
 	background-color:#616161;
 	height:10%;
@@ -41,6 +45,13 @@ body{
 	height:90%;
 	position:relative;
 	transition:height,1.5s;
+}
+
+#header>button{
+	font-size:2rem !important;
+	left:20%;
+	position:absolute;
+	top:65%;
 }
 
 #header>span{
@@ -83,4 +94,8 @@ body{
 
 .segment{
 	background-color:white !important;
+}
+
+.show{
+	display:block !important;
 }

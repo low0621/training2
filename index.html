@@ -15,6 +15,7 @@
 				</br>
 				Department of Electrical Engineering</br>
 			</span>
+			<button class="ui inverted basic button">INTO</button>
 			<ul>
 				<li>
 					<i class="call icon"></i>
@@ -41,32 +42,32 @@
 		<div id="content">
 			<div>
 				<div class="ui top attached tabular menu">
-					<a class="item active">
+					<a class="item active" id='announce'>
 						<i class="announcement icon"></i>
 						Announce
 					</a>
-					<a class="item">
+					<a class="item" id='research'>
 						<i class="lab icon"></i>
 						Research
 					</a>
-					<a class="item">
+					<a class="item" id='about'>
 						About
 					</a>
-					<a class="item">
+					<a class="item" id='people'>
 						People
 					</a>
-					<a class="item">
+					<a class="item" id='students'>
 						Students
 					</a>
-					<a class="item">
+					<a class="item" id='links'>
 						Links
 					</a>
 				</div>
-				<div class="ui bottom attached segment">
+				<div class="ui bottom attached segment show" id="announce_content">
 					<div class="ui grid">
 						<div class="four wide column">
 							<div class="ui vertical fluid tabular menu">
-								<a class="item">
+								<a class="item active">
 									NEWS
 								</a>
 								<a class="item">
@@ -75,8 +76,8 @@
 								<a class="item">
 									Scholarship
 								</a>
-								<a class="item active">
-									Employmrent
+								<a class="item">
+									Employment
 								</a>
 							</div>
 						</div>
@@ -86,6 +87,21 @@
 							</div>
 						</div>
 					</div>
+				</div>
+				<div class="ui bottom attached segment" id="research_content">
+					<p>Research</p>
+				</div>
+				<div class="ui bottom attached segment" id="about_content">
+					<p>About</p>
+				</div>
+				<div class="ui bottom attached segment" id="people_content">
+					<p>People</p>
+				</div>
+				<div class="ui bottom attached segment" id="students_content">
+					<p>Students</p>
+				</div>
+				<div class="ui bottom attached segment" id="links_content">
+					<p>Links</p>
 				</div>
 			</div>	
 		</div>

@@ -2,11 +2,23 @@ $('#header>button').click(
 	function(){
 		$('#header>button').css('display','none');
 		$('#header').css('height','15%');
-		$('#header>span').css('font-size','1.8em');
+		$('#header>span').css('font-size','1.8rem');
 		$('#header>span').css('top','20%');
 		$('#header ul').css('top','65%');
 		$('#content').css('height','100%');
 		$('#content').css('display','block');
+	}
+)
+
+$('#header>span').click(
+	function(){
+		$('#header>button').css('display','block');
+   		$('#header').css('height','90%');
+		$('#header>span').css('font-size','2rem');
+		$('#header>span').css('top','35%');
+   		$('#header ul').css('top','90%');
+		$('#content').css('height','0%');
+		$('#content').css('display','none');
 	}
 )
 

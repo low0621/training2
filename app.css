@@ -8,6 +8,7 @@ body{
 
 #content{
 	background-color:#fff7dc;
+	display:none;
 	height:0%;
 	position:relative;
 	transition:height,1.5s;

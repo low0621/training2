@@ -6,6 +6,7 @@ $('#header>button').click(
 		$('#header>span').css('top','20%');
 		$('#header ul').css('top','65%');
 		$('#content').css('height','100%');
+		$('#content').css('display','block');
 	}
 )
 

@@ -22,9 +22,51 @@ $('#header>span').click(
 	}
 )
 
-$('.item').click(
+$('.ui.top>.item').click(
 	function(){
-		$('.item').removeClass('active');
+		$('.ui.top>.item').removeClass('active');
+		$(this).addClass('active');
+	}
+)
+
+$('.ui.bottom#announce_content .item').click(
+	function(){
+		$('.ui.bottom#announce_content .item').removeClass('active');
+		$(this).addClass('active');
+	}
+)
+
+$('.ui.bottom#research_content .item').click(
+	function(){
+		$('.ui.bottom#research_content .item').removeClass('active');
+		$(this).addClass('active');
+	}
+)
+
+$('.ui.bottom#about_content .item').click(
+	function(){
+		$('.ui.bottom#about_content .item').removeClass('active');
+		$(this).addClass('active');
+	}
+)
+
+$('.ui.bottom#people_content .item').click(
+	function(){
+		$('.ui.bottom#people_content .item').removeClass('active');
+		$(this).addClass('active');
+	}
+)
+
+$('.ui.bottom#students_content .item').click(
+	function(){
+		$('.ui.bottom#students_content .item').removeClass('active');
+		$(this).addClass('active');
+	}
+)
+
+$('.ui.bottom#links_content .item').click(
+	function(){
+		$('.ui.bottom#links_content .item').removeClass('active');
 		$(this).addClass('active');
 	}
 )
@@ -53,7 +95,7 @@ $('#about').click(
 $('#people').click(
 	function(){
 		$('.segment').removeClass('show');
-		$('#students_content').addClass('show');
+		$('#people_content').addClass('show');
 	}
 )
 

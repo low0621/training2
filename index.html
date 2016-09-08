@@ -5,8 +5,6 @@
 		<link href='./Semantic-UI-master/dist/semantic.min.css' rel="stylesheet" type="text/css">
 		<script src='.//Semantic-UI-master/dist/semantic.min.js'></script>
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-		<link href='./slider/js-image-slider.css' rel='stylesheet' type='text/css'>
-		<script src='./slider/js-image-slider.js' type='text/javascript'></script>
 		<link href="app.css" rel="stylesheet" type="text/css"></link>
 		<title>NCKU EE</title>
 	</head>
@@ -17,12 +15,36 @@
 				</br>
 				Department of Electrical Engineering</br>
 			</span>
-			<div id="sliderFrame">
-				<div id="slider">
-					<img src="./image/imageedit_2_5625287823_resized.jpg" />
-					<img src="./image/imageedit_3_8647191997_resized.jpg" />
-					<img src="./image/imageedit_4_8263304017_resized.jpg" />
-					<img src="./image/imageedit_5_6077329009_resized.jpg" />
+			<div class="ui people shape">
+				<div class="sides">	
+					<div class="active side">
+						<div class="ui card">
+							<div class="image">
+								<img class="width_fit" src="./image/imageedit_3_8647191997_resized.jpg">
+							</div>
+						</div>
+					</div>
+					<div class="side">
+						<div class="ui card">
+							<div class="image">
+								<img class="width_fit" src="./image/imageedit_2_5625287823_resized.jpg">
+							</div>
+						</div>
+					</div>
+					<div class="side">
+						<div class="ui card">
+							<div class="image">
+								<img class="width_fit" src="./image/imageedit_4_8263304017_resized.jpg">
+							</div>
+						</div>
+					</div>
+					<div class="side">
+						<div class="ui card">
+							<div class="image">
+								<img class="width_fit" src="./image/imageedit_5_6077329009_resized.jpg">
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<button class="ui inverted basic button">INTO</button>
@@ -77,10 +99,10 @@
 					<div class="ui grid">
 						<div class="four wide column">
 							<div class="ui vertical fluid tabular menu">
-								<a class="item active">
+								<a class="item active" id="news_button">
 									NEWS
 								</a>
-								<a class="item">
+								<a class="item" id="admission_button">
 									Adimission
 								</a>
 								<a class="item">
@@ -91,41 +113,73 @@
 								</a>
 							</div>
 						</div>
-						<div class="twelve wide stretched column">
-							<div class="ui segment">
+						<div class="twelve wide stretched column" id="news">
+							<div class="ui segment">	
 								<div class="news_info">
-									hehehe
+									Congratulations to Professor Bin-Da Liu for receiving the 2016 IEEE Life Fellow
 								</div>
 								<div class="news_info">
-									dldld
+									Congratulations to Professor Tsorng-Juu Liang for receiving the 2016 IEEE Fellow
 								</div>
 								<div class="news_info">
-									dlddl
+									EEiMakerSpace grandly opened Today!
 								</div>
 								<div class="news_info">
-									mapokd
+									Open House Day. Visitors welcome!
 								</div>
 								<div class="news_info">
-									dlsk;s;ls
+									2016 Fall Master・s Program Applicant Interview
 								</div>
 								<div class="news_info">
-									ldicme
+									Congratulations to Professor Chuang Huey-Ru for receiving the IEEE Best Advisor Award for Doctoral Thesis
 								</div>
 								<div class="news_info">
-									qkixe
+									Congratulations to Professor Pau-Choo Chung for receiving the 2015 National Colleges Information Technology Services Innovation Competition
 								</div>
 								<div class="news_info">
-									dkis
+									Congratulations on Professor Tai-Haur Kuo accepted paper for 2016 IEEE International Solid-State Circuits Conference(ISSCC)
 								</div>
 								<div class="news_info">
-									lgdme
+									2016 Fall Master・s Program Preliminary Exam Results
 								</div>
 								<div class="news_info">
-									suaix
+									NCKU Students wisdom electric vehicles assistive devices to be rewarded of MXIC Golden Silicon Awards affirmative.
 								</div>
 							</div>
 						</div>
-						<div>
+						<div class="twelve wide stretched column" id="admission">
+							<div class="ui segment">
+								<div class="news_info">
+									skdjl;sakd
+								</div>
+								<div class="news_info">
+									Congratulations to Professor Tsorng-Juu Liang for receiving the 2016 IEEE Fellow
+								</div>
+								<div class="news_info">
+									EEiMakerSpace grandly opened Today!
+								</div>
+								<div class="news_info">
+									Open House Day. Visitors welcome!
+								</div>
+								<div class="news_info">
+									2016 Fall Master・s Program Applicant Interview
+								</div>
+								<div class="news_info">
+									Congratulations to Professor Chuang Huey-Ru for receiving the IEEE Best Advisor Award for Doctoral Thesis
+								</div>
+								<div class="news_info">
+									Congratulations to Professor Pau-Choo Chung for receiving the 2015 National Colleges Information Technology Services Innovation Competition
+								</div>
+								<div class="news_info">
+									Congratulations on Professor Tai-Haur Kuo accepted paper for 2016 IEEE International Solid-State Circuits Conference(ISSCC)
+								</div>
+								<div class="news_info">
+									2016 Fall Master・s Program Preliminary Exam Results
+								</div>
+								<div class="news_info">
+									NCKU Students wisdom electric vehicles assistive devices to be rewarded of MXIC Golden Silicon Awards affirmative.
+								</div>	
+							</div>
 						</div>
 						<div>
 						</div>

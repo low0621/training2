@@ -2,6 +2,10 @@
 	background-color:white !important;
 }
 
+#admission{
+	display:none;
+}
+
 body{
 	margin:0;
 }
@@ -117,17 +121,26 @@ div.navBulletsWrapper{
 	width:80%;
 }*/
 
+
 .news_info{
-	border-bottom:1.5px solid black;
+	border:2px dotted gray;
+	border-left:3px solid black;
 	font-family:Poppins;
 	font-size:1rem;
-	padding-top:25px;
+	margin-top:20px;
+	padding:3px;
+	padding-left:5px;
 }
 
+/*******semantic*******/
 .segment{
 	background-color:white !important;
 }
 
 .show{
 	display:block !important;
+}
+
+.width_fit{
+	width:auto !important;
 }

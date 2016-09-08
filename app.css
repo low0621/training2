@@ -23,8 +23,12 @@ body{
 	width:60%;
 }
 
-#content>div .segment{
+#content>div>.segment{
 	display:none;
+}
+
+div.navBulletsWrapper{
+	display:none !important;
 }
 
 #footer{
@@ -53,6 +57,14 @@ body{
 	left:20%;
 	position:absolute;
 	top:65%;
+}
+
+#header>div{
+	height: 77%;
+	left: 54%;
+	position: absolute;
+	top: 7%;
+	width: 43%;
 }
 
 #header>span{
@@ -91,6 +103,25 @@ body{
 
 .item{
 	font-family:Poppins !important;
+}
+
+/*#news_content{
+	display:none;
+	height:100%;
+	width:100%;
+}*/
+
+/*#news_content>div{
+	border-bottom:1px solid black;
+	height:7%;
+	width:80%;
+}*/
+
+.news_info{
+	border-bottom:1.5px solid black;
+	font-family:Poppins;
+	font-size:1rem;
+	padding-top:25px;
 }
 
 .segment{

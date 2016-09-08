@@ -1,6 +1,7 @@
 $('#header>button').click(
 	function(){
 		$('#header>button').css('display','none');
+		$('#header>div').css('display','none');
 		$('#header').css('height','15%');
 		$('#header>span').css('font-size','1.8rem');
 		$('#header>span').css('top','20%');
@@ -13,6 +14,7 @@ $('#header>button').click(
 $('#header>span').click(
 	function(){
 		$('#header>button').css('display','block');
+		$('#header>div').css('display','block');
    		$('#header').css('height','90%');
 		$('#header>span').css('font-size','2rem');
 		$('#header>span').css('top','35%');

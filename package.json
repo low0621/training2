@@ -1,0 +1,26 @@
+{
+  "name": "training2",
+  "version": "1.0.0",
+  "description": "first testing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/low0621/training2.git"
+  },
+  "keywords": [
+    "first"
+  ],
+  "author": "low0621",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/low0621/training2/issues"
+  },
+  "homepage": "https://github.com/low0621/training2#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "momentjs": "^1.1.15"
+  }
+}

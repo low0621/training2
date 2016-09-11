@@ -134,7 +134,6 @@ $('#news_button').click(
 
 $('#admission_button').click(
 	function(){
-		$('#news').css('display','none');
 		$('#admission').css('display','block');
 	}
 );

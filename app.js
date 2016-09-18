@@ -1,12 +1,13 @@
 /*  shape control   */
 $('.shape').shape();
 
-setInterval(
-	function(){
-		$('.shape').shape('flip up');
-	},
-5478
-);
+var a = window.setInterval(
+			function(){
+				$('.shape').shape('flip up');
+			console.log("run");
+			},
+			3000
+		);
 /*  global         */
 $('#header>button').click(
 	function(){
@@ -18,6 +19,7 @@ $('#header>button').click(
 		$('#header ul').css('top','65%');
 		$('#content').css('height','120%');
 		$('#content').css('display','block');
+		window.clearInterval(a);
 	}
 );
 
@@ -31,6 +33,12 @@ $('#header>span').click(
    		$('#header ul').css('top','90%');
 		$('#content').css('height','0%');
 		$('#content').css('display','none');
+		a = window.setInterval(
+			function(){
+				$('.shape').shape('flip up');
+			},
+			2500
+		);
 	}
 );
 
@@ -127,13 +135,25 @@ $('#links').click(
 
 $('#news_button').click(
 	function(){
-		$('#admission').css('display','none');
-		$('#news').css('display','block');
+		$('.column').attr('data','news');	
 	}
 );
 
 $('#admission_button').click(
 	function(){
-		$('#admission').css('display','block');
+		$('.column').attr('data','admission');
 	}
 );
+
+$('#scholarship_button').click(
+	function(){
+		$('.column').attr('data','scholarship');
+	}
+);
+
+$('#employment_button').click(
+	function(){
+		$('.column').attr('data','employment');
+	}
+);
+

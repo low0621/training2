@@ -2,12 +2,46 @@
 	background-color:white !important;
 }
 
-#admission{
+.admission{
+	background:#fff7dc;
+	border:2px dotted gray;
+	border-left:3px solid black;
+	color:darkcyan;
 	display:none;
+	font-family:Poppins;
+	font-size:1rem;
+	margin-top:20px;
+	padding:3px;
+	padding-left:5px;
+	position:relative;
+	top:0px;
 }
 
 body{
 	margin:0;
+}
+/******news*******/
+
+.column[data='news'] .news{
+	display:block;
+}
+
+/********admission********/
+
+.column[data='admission'] .admission{
+	display:block;
+}
+
+/********scholarship********/
+
+.column[data='scholarship'] .scholarship{
+	display:block;
+}
+
+/**********employment**********/
+
+.column[data='employment'] .employment{
+	display:block;
 }
 
 #content{
@@ -24,15 +58,26 @@ body{
 	margin:auto;
 	position:relative;
 	top:5%;
-	width:60%;
+	width:80%;
 }
 
 #content>div>.segment{
 	display:none;
 }
 
-div.navBulletsWrapper{
-	display:none !important;
+.employment{
+	background:#fff7dc;
+	border:2px dotted gray;
+	border-left:3px solid black;
+	color:darkcyan;
+	display:none;
+	font-family:Poppins;
+	font-size:1rem;
+	margin-top:20px;
+	padding:3px;
+	padding-left:5px;
+	position:relative;
+	top:0px;
 }
 
 #footer{
@@ -53,7 +98,7 @@ div.navBulletsWrapper{
 	background-color:#ff8f50;
 	height:90%;
 	position:relative;
-	transition:height,1.5s;
+	transition:height,0.5s;
 }
 
 #header>button{
@@ -64,11 +109,11 @@ div.navBulletsWrapper{
 }
 
 #header>div{
-	height: 77%;
+	height: 587px;
 	left: 54%;
 	position: absolute;
 	top: 7%;
-	width: 43%;
+	width: 415px;
 }
 
 #header>span{
@@ -79,7 +124,7 @@ div.navBulletsWrapper{
 	left: 8%;
 	position: absolute;
 	top:35%;
-	transition:font-size 1.5s,top 1.5s;
+	transition:font-size 0.5s,top 0.5s;
 }
 
 #header ul{
@@ -87,7 +132,7 @@ div.navBulletsWrapper{
 	left:51%;
 	position:relative;
 	top:90%;
-	transition:top,1.5s;
+	transition:top,0.5s;
 }
 
 #header li{
@@ -96,7 +141,7 @@ div.navBulletsWrapper{
 	font-size:1.17rem;
 	list-style:none;	
 	margin-right:2%;
-	transition:padding 0.5s,font-size 0.5s;
+	transition:padding 0.3s,font-size 0.3s;
 }
 
 #header li:hover{
@@ -105,31 +150,47 @@ div.navBulletsWrapper{
 	padding:3px;
 }
 
+.info{
+	top:0px;
+}
+
+.info:hover{
+	top:-5px;
+	transition:top 0.2s;
+}
+
 .item{
 	font-family:Poppins !important;
 }
 
-/*#news_content{
-	display:none;
-	height:100%;
-	width:100%;
-}*/
-
-/*#news_content>div{
-	border-bottom:1px solid black;
-	height:7%;
-	width:80%;
-}*/
-
-
-.news_info{
+.news{
+	background:#fff7dc;
 	border:2px dotted gray;
 	border-left:3px solid black;
+	color:darkcyan;
+	display:none;
 	font-family:Poppins;
 	font-size:1rem;
 	margin-top:20px;
 	padding:3px;
 	padding-left:5px;
+	position:relative;
+	top:0px;
+}
+
+.scholarship{
+	background:#fff7dc;
+	border:2px dotted gray;
+	border-left:3px solid black;
+	color:darkcyan;
+	display:none;
+	font-family:Poppins;
+	font-size:1rem;
+	margin-top:20px;
+	padding:3px;
+	padding-left:5px;
+	position:relative;
+	top:0px;
 }
 
 /*******semantic*******/

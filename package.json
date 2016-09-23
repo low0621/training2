@@ -21,6 +21,7 @@
   "homepage": "https://github.com/low0621/training2#readme",
   "dependencies": {
     "colors": "^1.1.2",
-    "moment": "^2.15.0"
+    "moment": "^2.15.0",
+    "querystring": "^0.2.0"
   }
 }

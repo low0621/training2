@@ -1,12 +1,16 @@
 /*  shape control   */
 $('.shape').shape();
 
+var opt = {
+	animate_period: 3000
+}
+
 var a = window.setInterval(
 			function(){
 				$('.shape').shape('flip up');
 			console.log("run");
 			},
-			3000
+			opt.animate_period
 		);
 /*  global         */
 $('#header>button').click(
@@ -133,27 +137,33 @@ $('#links').click(
 	}
 );
 
-$('#news_button').click(
-	function(){
-		$('.column').attr('data','news');	
-	}
-);
 
-$('#admission_button').click(
-	function(){
-		$('.column').attr('data','admission');
-	}
-);
+// $('#news_button').click(
+// 	function(){
+// 		$('.column').attr('data','news');	
+// 	}
+// );
+// 
+// $('#admission_button').click(
+// 	function(){
+// 		$('.column').attr('data','admission');
+// 	}
+// );
+// 
+// $('#scholarship_button').click(
+// 	function(){
+// 		$('.column').attr('data','scholarship');
+// 	}
+// );
+// 
+// $('#employment_button').click(
+// 	function(){
+// 		$('.column').attr('data','employment');
+// 	}
+// );
 
-$('#scholarship_button').click(
-	function(){
-		$('.column').attr('data','scholarship');
-	}
-);
+$('#announce_content .item').click(function(){
+	$('.column').attr('data', $(this).attr('id').replace(/_button$/, ''))
+})
 
-$('#employment_button').click(
-	function(){
-		$('.column').attr('data','employment');
-	}
-);
-
+// vi:et:nowrap:sw=2:ts=2

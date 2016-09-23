@@ -192,9 +192,33 @@ body{
 	position:relative;
 	top:0px;
 }
+/***** menu content *****/ 
+.top[data-content=announce]~#announce_content{
+	display:block !important;
+}
+
+.top[data-content=research]~#research_content{
+	display:block !important;
+}
+
+.top[data-content=about]~#about_content{
+	display:block !important;
+}
+
+.top[data-content=people]~#people_content{
+	display:block !important;
+}
+
+.top[data-content=students]~#students_content{
+	display:block !important;
+}
+
+.top[data-content=links]~#links_content{
+	display:block !important;
+}
 
 /*******semantic*******/
-.segment{
+.segment{		
 	background-color:white !important;
 }
 

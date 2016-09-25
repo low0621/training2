@@ -100,6 +100,58 @@ body{
 	position:relative;
 	transition:height,0.5s;
 }
+/*******header home state*******/
+#header[data-state=home]{
+	height:90%!important;
+}
+
+#header[data-state=home]>button{
+	display:block!important;
+}
+
+#header[data-state=home]+#content{
+	display:none!important;
+	height:0%!important;
+}
+
+#header[data-state=home]>div{
+	display:block!important;
+}
+
+#header[data-state=home]>span{
+	font-size:2rem!important;
+	top:35%!important;
+}
+
+#header[data-state=home] ul{
+	top:90%!important;
+}
+/******header main state******/
+#header[data-state=main]{
+	height:15%!important;
+}
+
+#header[data-state=main]>button{
+	display:none!important;
+}
+
+#header[data-state=main]+#content{
+	display:block!important;
+	height:120%!important;
+}
+
+#header[data-state=main]>div{
+	display:none!important;
+}
+
+#header[data-state=main]>span{
+	font-size:1.8rem!important;
+	top:20%!important;
+}
+
+#header[data-state=main] ul{
+	top:65%!important;
+}
 
 #header>button{
 	font-size:2rem !important;
@@ -220,10 +272,6 @@ body{
 /*******semantic*******/
 .segment{		
 	background-color:white !important;
-}
-
-.show{
-	display:block !important;
 }
 
 .width_fit{

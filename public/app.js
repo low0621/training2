@@ -8,7 +8,6 @@ var opt = {
 var a = window.setInterval(
   function(){
     $('.shape').shape('flip up');
-    console.log("run");
   },
   opt.animate_period
 );
@@ -41,45 +40,9 @@ $('.ui.top>.item').click(
 
 $('.ui.bottom .item').click(
 	function(){
-		$('.ui.bottom .item').removeClass('active');
-		$(this).addClass('active');
+    $(this).addClass('active').siblings('.item').removeClass('active')
 	}
 );
-/*
-$('.ui.bottom#research_content .item').click(
-	function(){
-		$('.ui.bottom#research_content .item').removeClass('active');
-		$(this).addClass('active');
-	}
-);
-
-$('.ui.bottom#about_content .item').click(
-	function(){
-		$('.ui.bottom#about_content .item').removeClass('active');
-		$(this).addClass('active');
-	}
-);
-
-$('.ui.bottom#people_content .item').click(
-	function(){
-		$('.ui.bottom#people_content .item').removeClass('active');
-		$(this).addClass('active');
-	}
-);
-
-$('.ui.bottom#students_content .item').click(
-	function(){
-		$('.ui.bottom#students_content .item').removeClass('active');
-		$(this).addClass('active');
-	}
-);
-
-$('.ui.bottom#links_content .item').click(
-	function(){
-		$('.ui.bottom#links_content .item').removeClass('active');
-		$(this).addClass('active');
-	}
-);*/
 
 $('.top>.item').click(
   function(){
@@ -89,6 +52,12 @@ $('.top>.item').click(
 
 $('#announce_content .item').click(function(){
 	$('.column').attr('data', $(this).attr('id').replace(/_button$/, ''))
+})
+
+$.getJSON('/do', { test: true, a: 'b' }, function(data){
+  console.log(data)
+  if(data.err === true)
+    console.log('here')
 })
 
 // vi:et:nowrap:sw=2:ts=2

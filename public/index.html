@@ -4,6 +4,7 @@
 		<script src='./bower_components/jquery/dist/jquery.min.js'></script>
 		<link href='./bower_components/semantic-ui/dist/semantic.min.css' rel="stylesheet" type="text/css">
 		<script src='./bower_components/semantic-ui/dist/semantic.min.js'></script>
+		<script src='./bower_components/d3/d3.min.js'></script>
 		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 		<link href="app.css" rel="stylesheet" type="text/css"></link>
 		<title>NCKU EE</title>
@@ -83,15 +84,19 @@
 						Research
 					</a>
 					<a class="item" id='about'>
+						<i class="university icon"></i>
 						About
 					</a>
 					<a class="item" id='people'>
+						<i class="users icon"></i>
 						People
 					</a>
 					<a class="item" id='students'>
+						<i class="student icon"></i>
 						Students
 					</a>
 					<a class="item" id='links'>
+						<i class="linkify icon"></i>
 						Links
 					</a>
 				</div>
@@ -113,130 +118,13 @@
 								</a>
 							</div>
 						</div>
-						<div class="twelve wide stretched column" data=news>
+						<div class="twelve wide stretched column" data="news">
 							<div class="ui segment">	
-								<div class="news info">
-									Congratulations to Professor Bin-Da Liu for receiving the 2016 IEEE Life Fellow
-								</div>
-								<div class="news info">
-									Congratulations to Professor Tsorng-Juu Liang for receiving the 2016 IEEE Fellow
-								</div>
-								<div class="news info">
-									EEiMakerSpace grandly opened Today!
-								</div>
-								<div class="news info">
-									Open House Day. Visitors welcome!
-								</div>
-								<div class="news info">
-									2016 Fall Master・s Program Applicant Interview
-								</div>
-								<div class="news info">
-									Congratulations to Professor Chuang Huey-Ru for receiving the IEEE Best Advisor Award for Doctoral Thesis
-								</div>
-								<div class="news info">
-									Congratulations to Professor Pau-Choo Chung for receiving the 2015 National Colleges Information Technology Services Innovation Competition
-								</div>
-								<div class="news info">
-									Congratulations on Professor Tai-Haur Kuo accepted paper for 2016 IEEE International Solid-State Circuits Conference(ISSCC)
-								</div>
-								<div class="news info">
-									2016 Fall Master・s Program Preliminary Exam Results
-								</div>
-								<div class="news info">
-									NCKU Students wisdom electric vehicles assistive devices to be rewarded of MXIC Golden Silicon Awards affirmative.
-								</div>
-								<div class="admission info">
-									eidkiekdiekd
-								</div>
-								<div class="admission info">
-									IEEE Fellow
-								</div>
-								<div class="admission info">
-									Today!
-								</div>
-								<div class="admission info">
-									Open House Day. Visitors welcome!
-								</div>
-								<div class="admission info">
-									2016 Fall Applicant Interview
-								</div>
-								<div class="admission info">
-									Congratulations to Professor Chuang Huey-Ru for receiving the IEEE Best Advisor Award for Doctoral Thesis
-								</div>
-								<div class="admission info">
-									Congratulations to Professor Pau-Choo Chung for receiving the 2015 National Colleges Information Technology Services Innovation Competition
-								</div>
-								<div class="admission info">
-									Congratulations on Professor Tai-Haur Kuo accepted paper for 2016 IEEE International Solid-State Circuits Conference(ISSCC)
-								</div>
-								<div class="admission info">
-									2016 Fall Master・s Program Preliminary Exam Results
-								</div>
-								<div class="admission info">
-									NCKU Students wisdom electric vehicles assistive devices to be rewarded of MXIC Golden Silicon Awards affirmative.
-								</div>
-								<div class="scholarship info">
-									NCKU Students wisdom electric vehicles assistive devices to be rewarded of MXIC Golden Silicon Awards affirmative.
-								</div>
-								<div class="scholarship info">
-									NCKU Students wisdom electric vehicles assistive devices to be rewarded of MXIC Golden Silicon Awards affirmative.
-								</div>
-								<div class="scholarship info">
-									NCKU Students wisdom electric vehicles assistive devices to be rewarded of MXIC Golden Silicon Awards affirmative.
-								</div>
-								<div class="scholarship info">
-									NCKU Students wisdom electric vehicles assistive devices to be rewarded of MXIC Golden Silicon Awards affirmative.
-								</div>	
-								<div class="scholarship info">
-									do you hear the people sing
-								</div>	
-								<div class="scholarship info">
-									singing a song of angry man
-								</div>	
-								<div class="scholarship info">
-									this is a music of a people who will not be slaved again
-								</div>	
-								<div class="scholarship info">
-									when the beating of your heart
-								</div>	
-								<div class="scholarship info">
-									echo a beating of a drum
-								</div>	
-								<div class="scholarship info">
-									this is a life about to start when tomorrow come 
-								</div>
-								<div class="employment info">
-									Hey soul sister
-								</div>
-								<div class="employment info">
-									Hey there mister mister
-								</div>
-								<div class="employment info">
-									On the radio sterio
-								</div>
-								<div class="employment info">
-									The way you move ain't fair 
-								</div>
-								<div class="employment info">
-									I don't wanna miss a single thing you do tonight
-								</div>
-								<div class="employment info">
-									Congratulations to Professor Chuang Huey-Ru for receiving the IEEE Best Advisor Award for Doctoral Thesis
-								</div>
-								<div class="employment info">
-									Congratulations to Professor Pau-Choo Chung for receiving the 2015 National Colleges Information Technology Services Innovation Competition
-								</div>
-								<div class="employment info">
-									Congratulations on Professor Tai-Haur Kuo accepted paper for 2016 IEEE International Solid-State Circuits Conference(ISSCC)
-								</div>
-								<div class="employment info">
-									2016 Fall Master・s Program Preliminary Exam Results
-								</div>
-								<div class="employment info">
-									NCKU Students wisdom electric vehicles assistive devices to be rewarded of MXIC Golden Silicon Awards affirmative.
-								</div>
-
-							</div>
+								<div id="news-content"></div>	
+								<div id="admission-content"></div>
+								<div id="scholarship-content"></div>
+								<div id="employment-content"></div>
+							 </div>
 						</div>
 						<div>
 						</div>

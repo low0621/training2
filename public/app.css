@@ -3,7 +3,7 @@
 }
 
 .admission{
-	background:#fff7dc;
+	background:#FFF9C4;
 	border:2px dotted gray;
 	border-left:3px solid black;
 	color:darkcyan;
@@ -45,7 +45,7 @@ body{
 }
 
 #content{
-	background-color:#fff7dc;
+	background-color:#FFF9C4;
 	display:none;
 	height:0%;
 	position:relative;
@@ -53,7 +53,7 @@ body{
 }
 
 #content>div{
-	background-color:#fff7dc;
+	background-color:#FFF9C4;
 	height:90%;
 	margin:auto;
 	position:relative;
@@ -66,7 +66,7 @@ body{
 }
 
 .employment{
-	background:#fff7dc;
+	background:#FFF9C4;
 	border:2px dotted gray;
 	border-left:3px solid black;
 	color:darkcyan;
@@ -81,7 +81,7 @@ body{
 }
 
 #footer{
-	background-color:#616161;
+	background-color:#2f2e2e;
 	height:10%;
 	position:relative;
 }
@@ -89,13 +89,13 @@ body{
 #footer>span{
 	color:white;
 	font-family:Poppins;
-	left:45%;
+	left:44%;
 	position:absolute;
 	top:48%;
 }
 
 #header{
-	background-color:#ff8f50;
+	background-color:#546E7A;
 	height:90%;
 	position:relative;
 	transition:height,0.5s;
@@ -137,7 +137,7 @@ body{
 
 #header[data-state=main]+#content{
 	display:block!important;
-	height:120%!important;
+	height:105%!important;
 }
 
 #header[data-state=main]>div{
@@ -155,7 +155,7 @@ body{
 
 #header>button{
 	font-size:2rem !important;
-	left:20%;
+	left:45%;
 	position:absolute;
 	top:65%;
 }
@@ -173,10 +173,12 @@ body{
 	font-family:Poppins;
 	font-size:2rem;
 	font-weight:900;
-	left: 8%;
+	left: 30%;
 	position: absolute;
 	top:35%;
+	text-align:center;
 	transition:font-size 0.5s,top 0.5s;
+	width:40%;
 }
 
 #header ul{
@@ -185,6 +187,7 @@ body{
 	position:relative;
 	top:90%;
 	transition:top,0.5s;
+	width:45%;
 }
 
 #header li{
@@ -216,7 +219,7 @@ body{
 }
 
 .news{
-	background:#fff7dc;
+	background:#FFF9C4;
 	border:2px dotted gray;
 	border-left:3px solid black;
 	color:darkcyan;
@@ -231,7 +234,7 @@ body{
 }
 
 .scholarship{
-	background:#fff7dc;
+	background:#FFF9C4;
 	border:2px dotted gray;
 	border-left:3px solid black;
 	color:darkcyan;

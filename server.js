@@ -5,13 +5,9 @@ var fs = require('fs');
 
 
 app.get('/do',function(req,res){
-	/*
-	let param = querystring.parse(req._parsedUrl.query)
-	console.log(param)
-	res.send({ err: 'true' });
-	*/
-	let obj = readFileSync('./announce.json','utf-8');
+	let obj = fs.readFileSync('./announce.json','utf-8');
 	let data = JSON.parse(obj);
+	res.send({ list: data })
 });
 
 app.use(express.static('public'));

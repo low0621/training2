@@ -1,44 +1,82 @@
 {
-	"data":[
+	"announce":[
 			{
-				"title":"one",
+				"title":"Himax Dr. Biing-Seng Wu donated 85 million to build the third EE building",
 				"value":"1"
 			},
 			{
-				"title":"two",
+				"title":"2017 Industrial Robot Competition Content",
 				"value":"2"
 			},
 			{
-				"title":"three",
+				"title":"Congratulations to Professor Yonhua (Tommy) Tzengfor receiving the President-elect 2017 of IEEE Nano",
 				"value":"3"
 			},
 			{
-				"title":"four",
+				"title":"Achieving Growth In A Transforming Industry Conent",
 				"value":"4"
 			},
 			{
-				"title":"five",
+				"title":"Congratulations to Professor Bin-Da Liu for receiving the 2016 IEEE Life Fellow",
 				"value":"5"
 			},
 			{
-				"title":"six",
+				"title":"Congratulations to Professor Tsorng-Juu Liang for receiving the 2016 IEEE Fellow",
 				"value":"6"
 			},
 			{
-				"title":"seven",
+				"title":"EEiMakerSpace grandly opened Today!",
 				"value":"7"
 			},
 			{
-				"title":"eight",
+				"title":"Open House Day. Visitors welcome!",
 				"value":"8"
 			},
 			{
-				"title":"nine",
+				"title":"2016 Fall Master’s Program Applicant Interview",
 				"value":"9"
 			},
 			{
-				"title":"ten",
+				"title":"Congratulations to Professor Chuang Huey-Ru for receiving the IEEE",
 				"value":"10"
 			}
-		]
+	],
+	"admission":[
+		{
+			"title":"【 Bachelor 】",
+			"value":"1"
+		},
+		{
+			"title":"【 Master 】",
+			"value":"2"
+		},
+		{
+			"title":"【 Doctor 】",
+			"value":"3"
+		},
+		{
+			"title":"Related Links",
+			"value":"4"
+		}
+	],
+	"scholarship":[
+		{
+			"title":"For undergraduated",
+			"value":"1"
+		},
+		{
+			"title":"For postgraduated",
+			"value":"2"
+		},
+		{
+			"title":"Related links",
+			"value":"3"
+		}
+	],
+	"employment":[
+		{
+			"title":"Announce",
+			"value":"1"
+		}
+	]		
 }

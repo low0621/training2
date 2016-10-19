@@ -3,13 +3,11 @@
 }
 
 .admission{
-	background:#FFF9C4;
-	border:2px dotted gray;
-	border-left:3px solid black;
-	color:darkcyan;
+	color:black;
 	display:none;
 	font-family:Poppins;
 	font-size:1rem;
+	font-weight:700;
 	margin-top:20px;
 	padding:3px;
 	padding-left:5px;
@@ -45,7 +43,7 @@ body{
 }
 
 #content{
-	background-color:#FFF9C4;
+	background-color:#80CBC4;
 	display:none;
 	height:0%;
 	position:relative;
@@ -53,7 +51,7 @@ body{
 }
 
 #content>div{
-	background-color:#FFF9C4;
+	background-color:#80CBC4;
 	height:90%;
 	margin:auto;
 	position:relative;
@@ -66,13 +64,11 @@ body{
 }
 
 .employment{
-	background:#FFF9C4;
-	border:2px dotted gray;
-	border-left:3px solid black;
-	color:darkcyan;
+	color:black;
 	display:none;
 	font-family:Poppins;
 	font-size:1rem;
+	font-weight:700;
 	margin-top:20px;
 	padding:3px;
 	padding-left:5px;
@@ -210,22 +206,21 @@ body{
 }
 
 .info:hover{
-	top:-5px;
-	transition:top 0.2s;
+	color:#F44336;
+	transition:color 0.2s;
 }
 
 .item{
 	font-family:Poppins !important;
+	font-weight:700 !important;
 }
 
 .news{
-	background:#FFF9C4;
-	border:2px dotted gray;
-	border-left:3px solid black;
-	color:darkcyan;
+	color:black;
 	display:none;
 	font-family:Poppins;
 	font-size:1rem;
+	font-weight:700;
 	margin-top:20px;
 	padding:3px;
 	padding-left:5px;
@@ -234,13 +229,11 @@ body{
 }
 
 .scholarship{
-	background:#FFF9C4;
-	border:2px dotted gray;
-	border-left:3px solid black;
-	color:darkcyan;
+	color:black;
 	display:none;
 	font-family:Poppins;
 	font-size:1rem;
+	font-weight:700;
 	margin-top:20px;
 	padding:3px;
 	padding-left:5px;

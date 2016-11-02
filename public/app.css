@@ -14,8 +14,13 @@
 body{
 	margin:0;
 }
+
+.borderless{
+	border:none !important;
+}
+
 .column{
-	background-color:#D4E157;
+	background-color:#9ECF8E;
 }
 /******news*******/
 
@@ -242,6 +247,12 @@ body{
 	position:relative;
 	top:0px;
 }
+
+.top .active{
+	background-color:#9ECF8E !important;
+	border-color:transparent !important;
+}
+
 /***** menu content *****/ 
 .top[data-content=announce]~#announce_content{
 	display:block !important;

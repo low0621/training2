@@ -1,82 +1,92 @@
 {
 	"announce":[
 			{
+				"date":"2016/12/25",
 				"title":"Himax Dr. Biing-Seng Wu donated 85 million to build the third EE building",
-				"value":"1"
+				"content":"1"
 			},
 			{
+				"date":"2016/11/11",
 				"title":"2017 Industrial Robot Competition Content",
-				"value":"2"
+				"content":"2"
 			},
 			{
+				"date":"2016/09/15",
 				"title":"Congratulations to Professor Yonhua (Tommy) Tzengfor receiving the President-elect 2017 of IEEE Nano",
-				"value":"3"
+				"content":"3"
 			},
 			{
+				"date":"2016/07/18",
 				"title":"Achieving Growth In A Transforming Industry Conent",
-				"value":"4"
+				"content":"4"
 			},
 			{
+				"date":"2016/06/30",
 				"title":"Congratulations to Professor Bin-Da Liu for receiving the 2016 IEEE Life Fellow",
-				"value":"5"
+				"content":"5"
 			},
 			{
+				"date":"2016/05/05",
 				"title":"Congratulations to Professor Tsorng-Juu Liang for receiving the 2016 IEEE Fellow",
-				"value":"6"
+				"content":"6"
 			},
 			{
+				"date":"2016/04/05",
 				"title":"EEiMakerSpace grandly opened Today!",
-				"value":"7"
+				"content":"7"
 			},
 			{
+				"date":"2016/04/04",
 				"title":"Open House Day. Visitors welcome!",
-				"value":"8"
+				"content":"8"
 			},
 			{
+				"date":"2016/04/01",
 				"title":"2016 Fall Master’s Program Applicant Interview",
-				"value":"9"
+				"content":"9"
 			},
 			{
+				"date":"2016/03/03",
 				"title":"Congratulations to Professor Chuang Huey-Ru for receiving the IEEE",
-				"value":"10"
+				"content":"10"
 			}
 	],
 	"admission":[
 		{
 			"title":"【 Bachelor 】",
-			"value":"1"
+			"content":"1"
 		},
 		{
 			"title":"【 Master 】",
-			"value":"2"
+			"content":"2"
 		},
 		{
 			"title":"【 Doctor 】",
-			"value":"3"
+			"content":"3"
 		},
 		{
 			"title":"Related Links",
-			"value":"4"
+			"content":"4"
 		}
 	],
 	"scholarship":[
 		{
 			"title":"For undergraduated",
-			"value":"1"
+			"content":"1"
 		},
 		{
 			"title":"For postgraduated",
-			"value":"2"
+			"content":"2"
 		},
 		{
 			"title":"Related links",
-			"value":"3"
+			"content":"3"
 		}
 	],
 	"employment":[
 		{
 			"title":"Announce",
-			"value":"1"
+			"content":"1"
 		}
 	]		
 }

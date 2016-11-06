@@ -5,10 +5,13 @@
 	font-size:1rem;
 	font-weight:700;
 	margin-top:20px;
+	overflow:hidden;
 	padding:3px;
 	padding-left:5px;
 	position:relative;
+	text-overflow:ellipsis;
 	top:0px;
+	white-space:nowrap;
 }
 
 body{
@@ -21,6 +24,7 @@ body{
 
 .column{
 	background-color:#9ECF8E;
+	width:20% !important;
 }
 /******news*******/
 
@@ -71,6 +75,22 @@ body{
 	font-weight:700 !important;
 }
 
+.date{
+	color:black;
+	display:none;
+	float:left;
+	font-family:Poppins;
+	font-size:1rem;
+	font-weight:700;
+	margin-top:20px;
+	overflow:hidden;
+	padding:3px;
+	padding-left:5px;
+	position:relative;
+	top:0px;
+	width:40%;
+}
+
 .employment{
 	color:black;
 	display:none;
@@ -102,7 +122,7 @@ body{
 	background-color:#546E7A;
 	height:90%;
 	position:relative;
-	transition:height,0.5s;
+	transition:height 0.5s;
 }
 /*******header home state*******/
 #header[data-state=home]{
@@ -132,6 +152,7 @@ body{
 }
 /******header main state******/
 #header[data-state=main]{
+	background:linear-gradient(#546E7A,#80CBC4);
 	height:15%!important;
 }
 
@@ -150,12 +171,17 @@ body{
 
 #header[data-state=main]>span{
 	font-size:1.8rem!important;
+	left:0%;
+	margin-left:10px;
+	text-align:left;
 	top:20%!important;
 }
 
 #header[data-state=main] ul{
 	top:65%!important;
 }
+/*****************************/
+
 
 #header>button{
 	font-size:2rem !important;
@@ -181,13 +207,13 @@ body{
 	position: absolute;
 	top:35%;
 	text-align:center;
-	transition:font-size 0.5s,top 0.5s;
+	transition:font-size 0.5s,left 0.5s,top 0.5s;
 	width:40%;
 }
 
 #header ul{
 	color:white;
-	left:51%;
+	left:55%;
 	position:relative;
 	top:90%;
 	transition:top,0.5s;
@@ -225,14 +251,18 @@ body{
 .news{
 	color:black;
 	display:none;
+	float:left;
 	font-family:Poppins;
 	font-size:1rem;
 	font-weight:700;
 	margin-top:20px;
+	overflow:hidden;
 	padding:3px;
-	padding-left:5px;
 	position:relative;
+	text-overflow:ellipsis;
 	top:0px;
+	width:60%;
+	white-space:nowrap;
 }
 
 .scholarship{

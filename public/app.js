@@ -66,5 +66,42 @@ $.getJSON('/do', function(it){
   d3.select('#scholarship-content').selectAll('.scholarship.info').data(arr.scholarship).enter().append('div').classed('scholarship info',true).text(function(it){ return it.title })
   d3.select('#employment-content').selectAll('.employment.info').data(arr.employment).enter().append('div').classed('employment info',true).text(function(it){ return it.title })
 })
+/****color style****/
+$('#white').click(
+  function(){
+    $('#content').css('background-color','#E8DAC0')
+    $('#content>div').css('background-color','#E8DAC0')
+    $('.column').css('background-color','#CAB797')
+    $('.grid').css('background-color','#CAB797')
+  }
+)
+
+$('#teal').click(
+  function(){
+    $('#content').css('background-color','#80CBC4')
+    $('#content>div').css('background-color','#80CBC4')
+    $('.column').css('background-color','#9ECF8E')
+    $('.grid').css('background-color','#9ECF8E')
+  }
+)
+
+$('#blue').click(
+  function(){
+    $('#content').css('background-color','#ABC3BC')
+    $('#content>div').css('background-color','#ABC3BC')
+    $('.column').css('background-color','#FFE5B4')
+    $('.grid').css('background-color','#FFE5B4')
+  }
+)
+
+
+$('#olive').click(
+  function(){
+    $('#content').css('background-color','#DAF5B8')
+    $('#content>div').css('background-color','#DAF5B8')
+    $('.column').css('background-color','#9CD6BE')
+    $('.grid').css('background-color','#9CD6BE')
+  }
+)
 
 // vi:et:nowrap:sw=2:ts=2

@@ -260,6 +260,10 @@ body{
 	font-family:Poppins !important;
 }
 
+.lower{
+	margin-top:5px !important;
+}
+
 .news{
 	color:black;
 	display:none;

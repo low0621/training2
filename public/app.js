@@ -60,10 +60,11 @@ $.getJSON('/do', function(it){
   console.log(it.list.announce)
 
   let arr = it.list
-  d3.select('#news-content').selectAll('.news.info').data(arr.announce).enter().append('div').classed('news info', true).text(function(it){ return it.title })
-  d3.select('#admission-content').selectAll('.admission.info').data(arr.admission).enter().append('div').classed('admission info',true).text(function(it){return it.title})
-  d3.select('#scholarship-content').selectAll('.scholarship.info').data(arr.scholarship).enter().append('div').classed('scholarship info', true).text(function(it){ return it.title })
-  d3.select('#employment-content').selectAll('.employment.info').data(arr.employment).enter().append('div').classed('employment info', true).text(function(it){ return it.title })
+  d3.select('#date-content').selectAll('.news.info').data(arr.announce).enter().append('div').classed('news info',true).text(function(it){ return it.date })
+  d3.select('#news-content').selectAll('.news.info').data(arr.announce).enter().append('div').classed('news info',true).text(function(it){ return it.title })
+  d3.select('#admission-content').selectAll('.admission.info').data(arr.admission).enter().append('div').classed('admission info',true).text(function(it){ return it.title })
+  d3.select('#scholarship-content').selectAll('.scholarship.info').data(arr.scholarship).enter().append('div').classed('scholarship info',true).text(function(it){ return it.title })
+  d3.select('#employment-content').selectAll('.employment.info').data(arr.employment).enter().append('div').classed('employment info',true).text(function(it){ return it.title })
 })
 
 // vi:et:nowrap:sw=2:ts=2

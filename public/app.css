@@ -31,7 +31,9 @@ body{
 .column[data='news'] .news{
 	display:block;
 }
-
+.column[data='news'] #date-content{
+	display:block;
+}
 /********admission********/
 
 .column[data='admission'] .admission{
@@ -91,6 +93,13 @@ body{
 	width:40%;
 }
 
+#date-content{
+	display:none;
+	float:left;
+	height:75%;
+	width:15%;
+}
+
 .employment{
 	color:black;
 	display:none;
@@ -116,6 +125,10 @@ body{
 	left:44%;
 	position:absolute;
 	top:48%;
+}
+
+.grid{
+	background-color:#9ECF8E;
 }
 
 #header{
@@ -260,7 +273,7 @@ body{
 	position:relative;
 	text-overflow:ellipsis;
 	top:0px;
-	width:60%;
+	width:85%;
 	white-space:nowrap;
 }
 

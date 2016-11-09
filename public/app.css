@@ -152,7 +152,6 @@ body{
 }
 /******header main state******/
 #header[data-state=main]{
-	background:linear-gradient(#546E7A,#80CBC4);
 	height:15%!important;
 }
 

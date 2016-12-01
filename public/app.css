@@ -24,8 +24,9 @@ body{
 
 .column{
 	background-color:#9ECF8E;
-	width:20% !important;
+	width:15% !important;
 }
+
 /******news*******/
 
 .column[data='news'] .news{
@@ -73,6 +74,7 @@ body{
 }
 
 #content .item{
+	border:none !important;
 	font-weight:700 !important;
 }
 
@@ -117,12 +119,14 @@ body{
 	position:relative;
 }
 
-#footer>span{
+#footer>div{
 	color:white;
 	font-family:Poppins;
-	left:44%;
-	position:absolute;
-	top:48%;
+	margin:0 auto;
+	position:relative;
+	text-align:center;
+	top:35%;
+	width:20%;
 }
 
 .grid{
@@ -159,6 +163,7 @@ body{
 }
 
 #header[data-state=home] ul{
+	padding-right:1%;
 	top:90%!important;
 }
 /******header main state******/
@@ -182,22 +187,24 @@ body{
 #header[data-state=main]>span{
 	font-size:1.8rem!important;
 	left:0%;
-	margin-left:10px;
+	margin-left:10%;
 	text-align:left;
 	top:20%!important;
 }
 
 #header[data-state=main] ul{
-	top:65%!important;
+	padding-right:10%;
+	top:60%!important;
 }
 /*****************************/
 
 
 #header>button{
 	font-size:2rem !important;
-	left:45%;
+	left:44%;
 	position:absolute;
 	top:65%;
+	width:12%;
 }
 
 #header>div{
@@ -219,30 +226,35 @@ body{
 	text-align:center;
 	transition:font-size 0.5s,left 0.5s,top 0.5s;
 	width:40%;
+	z-index:1;
 }
 
 #header ul{
 	color:white;
-	left:55%;
+	padding-left:0;
+	padding-right:1%;
 	position:relative;
-	top:90%;
+	text-align:right;
+	top:85%;
 	transition:top,0.5s;
-	width:45%;
+	width:100%;
 }
 
 #header li{
-	float:left;
+	display:inline-block;
 	font-family:Poppins;
 	font-size:1.17rem;
 	list-style:none;	
-	margin-right:2%;
 	transition:padding 0.3s,font-size 0.3s;
 }
 
+#header li:first-child:hover{
+	padding-right:2%;
+}
+
 #header li:hover{
-	border-bottom:2px solid white;
-	font-size:1.18rem;
-	padding:3px;
+	padding-left:2%;
+	padding-right:2%;
 }
 
 .info{
@@ -256,6 +268,10 @@ body{
 
 .item{
 	font-family:Poppins !important;
+}
+
+#left_bar{
+	padding-right:0 !important;
 }
 
 .lower{
@@ -279,6 +295,11 @@ body{
 	white-space:nowrap;
 }
 
+#right_bar{
+	padding-left:0 !important;
+	width:85% !important;
+}
+
 .scholarship{
 	color:black;
 	display:none;
@@ -292,11 +313,31 @@ body{
 	top:0px;
 }
 
-.top .active{
+.segment{
+	border:none !important;
+	border-radius:0 .28571429rem .28571429rem 0 !important;
+	box-shadow:none !important;
+}
+
+.top[data-color=teal] .active{
 	background-color:#9ECF8E !important;
 	border-color:transparent !important;
 }
 
+.top[data-color=white] .active{
+	background-color:#FFE5B4 !important;
+	border-color:transparent !important;
+}
+
+.top[data-color=olive] .active{
+	background-color:#9CD6BE !important;
+	border-color:transparent !important;
+}
+
+.top[data-color=blue] .active{
+	background-color:#699695 !important;
+	border-color:transparent !important;
+}
 /***** menu content *****/ 
 .top[data-content=announce]~#announce_content{
 	display:block !important;

@@ -30,7 +30,7 @@ $('#header>span').click(
 		);
 	}
 );
-
+  
 $('.ui.top>.item').click(
 	function(){
 		$('.ui.top>.item').removeClass('active');
@@ -69,15 +69,17 @@ $.getJSON('/do', function(it){
 /****color style****/
 $('#white').click(
   function(){
-    $('#content').css('background-color','#E8DAC0')
-    $('#content>div').css('background-color','#E8DAC0')
-    $('.column').css('background-color','#CAB797')
-    $('.grid').css('background-color','#CAB797')
+    $('.top').attr('data-color','white')
+    $('#content').css('background-color','#abc3bc')
+    $('#content>div').css('background-color','#abc3bc')
+    $('.column').css('background-color','#FFE5B4')
+    $('.grid').css('background-color','#FFE5B4')
   }
 )
 
 $('#teal').click(
   function(){
+    $('.top').attr('data-color','teal')
     $('#content').css('background-color','#80CBC4')
     $('#content>div').css('background-color','#80CBC4')
     $('.column').css('background-color','#9ECF8E')
@@ -87,16 +89,18 @@ $('#teal').click(
 
 $('#blue').click(
   function(){
+    $('.top').attr('data-color','blue')
     $('#content').css('background-color','#ABC3BC')
     $('#content>div').css('background-color','#ABC3BC')
-    $('.column').css('background-color','#FFE5B4')
-    $('.grid').css('background-color','#FFE5B4')
+    $('.column').css('background-color','#699695')
+    $('.grid').css('background-color','#699695')
   }
 )
 
 
 $('#olive').click(
   function(){
+    $('.top').attr('data-color','olive')
     $('#content').css('background-color','#DAF5B8')
     $('#content>div').css('background-color','#DAF5B8')
     $('.column').css('background-color','#9CD6BE')
